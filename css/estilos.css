@@ -1,0 +1,8 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Aplicar una letra diferente solo a los títulos */
+h1 {
+    font-family: 'Glegoo', sans-serif;
+}
