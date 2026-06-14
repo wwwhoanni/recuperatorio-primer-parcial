@@ -12,8 +12,7 @@ h1:hover {
                  0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.7);
     letter-spacing: 0.15rem;
     transform: scale(1.05);
-}
- 
+} 
 #cita {
     background-color: rgba(0, 0, 0, 0.8);
     border-left: 0.25rem solid #f99379;
@@ -25,22 +24,19 @@ h1:hover {
     color: #cccccc;
     font-size: 0.95rem;
 }
- 
 .cita-autor {
     display: block;
     margin-top: 0.4rem;
     font-style: italic;
     font-size: 0.85rem;
     color: #f6f0f0;
-}
- 
+} 
 nav {
      background-color: rgba(255, 150, 21, 0.9) ;
       text-align: center;
       font-weight: bold;   
          padding: 1rem 0;
 }
- 
 nav ul {
     list-style: none;
     display: flex;
@@ -48,11 +44,9 @@ nav ul {
     padding: 0;
     margin: 0;
 }
- 
 nav ul li {
     margin: 0;
 }
- 
 nav ul li a {
     display: block;
     padding: 0.85rem 1.5rem;
@@ -64,24 +58,17 @@ nav ul li a {
     border-bottom: 0.1875rem solid transparent;
     transition: color 0.2s, border-color 0.2s, background-color 0.2s;
 }
- 
 nav ul li a:visited {
     color: #44b80e;
 }
-
 nav ul li a:hover {
     color: #79c4f9;
     border-bottom-color: #79c4f9;
     background-color: rgba(255, 0, 123, 0.4);
 }
-
- 
 nav ul li a:active {
     color: #b31d59;
 }
-
-
-
 h3 {
     font-family: 'Glegoo', Arial, serif;
     font-size: 1.1rem;
@@ -89,19 +76,12 @@ h3 {
     color: black;
     margin-bottom: 0.5rem;
 }
- 
-
- 
 hr {
     border: none;
     border-top: 0.0625rem solid #333;
     margin-bottom: 1rem;
 }
- 
- 
-
- 
-/* Fotos */ 
+ /* Fotos */ 
 .foto-prin {
     width: 100%;
     max-width: 43.75rem;
@@ -109,7 +89,6 @@ hr {
     margin: 1.5rem auto;
     border: 0.125rem solid #333;
 }
- 
 .contenedor-fotos {
     display: flex;
     justify-content: center;
@@ -117,41 +96,36 @@ hr {
     margin-top: 1.5rem;
     flex-wrap: wrap;
 }
- 
 .contenedor-fotos img {
     width: 45%;
     border: 0.0625rem solid #333;
 }
- 
 /* Video */
- 
 #video {
-    justify-content: center;
     display: block;
     width: 100%;
     height: 26rem;
     margin: 1.5rem 0;
     border: none;
 }
- 
-
-footer {
-    background-color: rgba(10, 10, 10, 0.95);
+/* pie de pagina */
+ footer {
     border-top: 0.0625rem solid #333;
     padding: 1.5rem 0;
     margin-top: 2rem;
-    text-align: center;
+         text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+    
+    background-color:black;
+     font-weight: 600;
+         margin-bottom: 0.9rem;
+           font-size: 0.90rem;
+    color: white;
 }
-
-
-
- 
 header {
-
     text-align: center;
 }
-
-
 h1 {
         font-family: 'Glegoo', serif;
     text-align: center;
@@ -165,19 +139,14 @@ h1 {
     text-shadow: 0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.7);
     letter-spacing: 0.1rem;
 }
-
-
-h2 {
-     
+h2 {    
 text-shadow: 
     -1px -1px 0 #f0eeee, 
      1px -1px 0 #f0eeee, 
     -1px  1px 0 #f0eeee, 
      1px  1px 0 #f0eeee;
-
-     background-color: rgba(255, 150, 21, 0.38) ; 
+     background-color: rgba(255, 150, 21, 0.8) ; 
 }
-
 aside {
      text-align: left;
       font-family: 'Glegoo', serif;   
@@ -193,32 +162,15 @@ aside {
     padding: 1.2rem 1.5rem;
     margin: 1.5rem 0;
 }
-
-footer {
-         text-indent: 50px;
-  text-align: justify;
-  letter-spacing: 1px;
-    
-    background-color:black;
-     font-weight: 600;
-         margin-bottom: 0.9rem;
-           font-size: 0.90rem;
-    color: white;
-}
-
  body {
             max-width: 1200px;
     margin: 0 auto;
     padding: 1.25rem;
     background-image: url("../img/fondo.jpg"); /* Ruta de la imagen */
             background-repeat: repeat; /* Es una imagen pequeña por lo que queremos que se repita */
-                max-width: 1200px;
-                    padding: 1.25rem;
            font-family: 'Glegoo', serif;
              font-weight: 400;
         }
-
-
 /* Requisito ancho max */
 .contenedor {
     width: 90%;
@@ -229,10 +181,6 @@ footer {
   justify-content: center; /* Centrado horizontal */
   align-items: center;     /* Centrado vertical */
 }
-
-
-
-
 ul{
        display: flex;       /* Alinear los elementos horizontalmente */
     gap: 20px;           /* Espacio entre cada elemento */
@@ -251,7 +199,6 @@ li {
     padding: 0;
 
 }
-
 p {
      text-indent: 50px;
   text-align: justify;
@@ -262,7 +209,6 @@ p {
          margin-bottom: 0.9rem;
            font-size: 0.90rem;
 }
-
 footer a:link {
   color: #f1c40f; /* Yellow */
    font-weight: bold;
@@ -272,48 +218,26 @@ footer a:link {
     -1px  1px 0 #000, 
      1px  1px 0 #000;
 }
-
 main {
     padding: 2rem 0;
 }
-
-
 img {
   max-width: 100%;         /* Responsividad */
   height: auto;
 }
-
-section article  .caja {
-  display: inline-flex;
-  
-  justify-content: right; 
-  align-items: center;     /* Centrado vertical */
-  height: 100vh;           /* Opcional: define altura para centrar verticalmente */
-   gap: 20px;
-   max-width: fit-content;
-   margin-right: 10%;
-   margin-left: 8%;
-   min-width: 0;
-  
-}
-
-/*  estilos para lista de obras    */
- 
+/*  estilos para lista de obras    */ 
 aside h3 {
     margin-bottom: 0.7rem;
 }
- 
 aside ul {
     list-style: disc;
     padding-left: 1.2rem;
 }
-
 div .tecno {
     text-align: center;
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
-
          display: flex;
   justify-content: center; /* Centrado horizontal */
   align-items: center;     /* Centrado vertical */
